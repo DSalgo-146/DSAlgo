@@ -29,8 +29,5 @@ public class LoginPage extends BaseClass {
 		driver.findElement(register).click();
 	}
 	
-	public void test() {
-		
-	}
 	
 }
