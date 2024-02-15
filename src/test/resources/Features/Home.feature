@@ -1,11 +1,13 @@
 Feature: DSAlgo Home Page
 
+@tag1
   Scenario: Entering DSAlgo Home Page
     Given User launch Chrome Browser
     And User opens DSAlgo Portal
     When User click GetStarted button
     Then The DSAlgo Home Page opens
 
+@tag2
   Scenario: Only Registered User can access portal
     Given User on a DSAlgo Portal Home Page
     When User clicks Data Structures dropdown

@@ -1,0 +1,24 @@
+[INFO ]2024-02-1422:36:53.886[main]Utilities.LoggerLoad1)-User opens DSAlgo Portal
+[INFO ]2024-02-1422:36:54.135[main]Utilities.LoggerLoad1)-User click GetStarted button
+[INFO ]2024-02-1422:36:55.666[main]Utilities.LoggerLoad1)-User on a DSAlgo Portal Home Page
+[INFO ]2024-02-1422:36:56.084[main]Utilities.LoggerLoad1)-User clicks Data Structures dropdown
+[INFO ]2024-02-1422:36:56.091[main]Utilities.LoggerLoad1)-User selects data structure from dropdown
+[INFO ]2024-02-1422:37:24.211[main]Utilities.LoggerLoad1)-alert user with the message {string}
+[INFO ]2024-02-1422:37:25.289[main]Utilities.LoggerLoad1)-User in on Home Page
+[INFO ]2024-02-1422:37:25.818[main]Utilities.LoggerLoad1)-User clicks Get Started button in Data Structure Topics
+[INFO ]2024-02-1422:37:44.422[main]Utilities.LoggerLoad1)-alert user with the message {string}
+[INFO ]2024-02-1422:37:45.439[main]Utilities.LoggerLoad1)-User on a DSAlgo Portal Home Page
+[INFO ]2024-02-1422:37:46.040[main]Utilities.LoggerLoad1)-User clicks Register Link
+[INFO ]2024-02-1422:37:49.211[main]Utilities.LoggerLoad1)-User on a DSAlgo Portal Home Page
+[INFO ]2024-02-1422:37:51.818[main]Utilities.LoggerLoad1)-User Clicks Sign in Link
+[INFO ]2024-02-1510:08:16.391[main]Utilities.LoggerLoad1)-User opens DSAlgo Portal
+[INFO ]2024-02-1510:08:16.636[main]Utilities.LoggerLoad1)-User click GetStarted button
+[INFO ]2024-02-1510:08:46.372[main]Utilities.LoggerLoad1)-User opens DSAlgo Portal
+[INFO ]2024-02-1510:08:46.729[main]Utilities.LoggerLoad1)-User click GetStarted button
+[INFO ]2024-02-1511:21:25.112[main]Utilities.LoggerLoad1)-User opens DSAlgo Portal
+[INFO ]2024-02-1511:21:25.428[main]Utilities.LoggerLoad1)-User click GetStarted button
+[INFO ]2024-02-1512:36:02.855[main]Utilities.LoggerLoad1)-User opens DSAlgo Portal
+[INFO ]2024-02-1512:36:03.459[main]Utilities.LoggerLoad1)-User click GetStarted button
+[INFO ]2024-02-1512:36:03.461[main]Utilities.LoggerLoad1)-Testing Getstarted
+[WARN ]2024-02-1512:36:03.461[main]Utilities.LoggerLoad1)-Testing warning
+[ERROR]2024-02-1512:36:03.462[main]Utilities.LoggerLoad1)-Testing error

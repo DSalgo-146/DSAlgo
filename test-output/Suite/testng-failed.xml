@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="StepDefinition.Home">
+        <methods>
+          <include name="user_clicks_sign_in_link"/>
+          <include name="user_opens_ds_algo_portal"/>
+          <include name="user_selects_data_structure_from_dropdown"/>
+          <include name="user_click_get_started_button"/>
+          <include name="user_clicks_register_link"/>
+          <include name="user_on_a_ds_algo_portal_home_page"/>
+          <include name="user_clicks_get_started_button_in_data_structure_topics"/>
+          <include name="alert_user_with_the_message"/>
+          <include name="user_in_on_home_page"/>
+          <include name="user_clicks_data_structures_dropdown"/>
+        </methods>
+      </class> <!-- StepDefinition.Home -->
+      <class name="PageObjects.Homepage">
+        <methods>
+          <include name="login"/>
+          <include name="register"/>
+          <include name="clickitem"/>
+          <include name="clickgetstart"/>
+          <include name="getstarted"/>
+        </methods>
+      </class> <!-- PageObjects.Homepage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

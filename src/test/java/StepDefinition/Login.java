@@ -2,9 +2,6 @@ package StepDefinition;
 
 import java.time.Duration;
 
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import PageObjects.LoginPage;
 import Utilities.BaseClass;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -12,14 +9,15 @@ import io.cucumber.java.en.When;
 
 public class Login extends BaseClass{
 
-	String URL = "https://dsportalapp.herokuapp.com/login";
+	
 
 	@Given("User on a Login Page")
 	public void user_on_a_login_page() {
 		
-		System.setProperty("webdriver.chrome.driver", "D:/chromedriver-win64/chromedriver-win64/chromedriver.exe");
+		/*System.setProperty("webdriver.chrome.driver", "D:/chromedriver-win64/chromedriver-win64/chromedriver.exe");
 		driver = new ChromeDriver();
-		lp = new LoginPage(driver);
+		lp = new LoginPage(driver);*/
+		String URL = "https://dsportalapp.herokuapp.com/login";
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get(URL);
 		
@@ -37,7 +35,7 @@ public class Login extends BaseClass{
 	}
 
 	@When("User clicks Login button")
-	public void user_clicks_login_button1() {
+	public void user_clicks_login_button1() throws InterruptedException {
         lp.clicklogin();
 	}
 
@@ -48,7 +46,9 @@ public class Login extends BaseClass{
 	
 	@Given("User is on a Login Page")
 	public void user_is_on_a_login_page() {
-
+		String URL = "https://dsportalapp.herokuapp.com/login";
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.get(URL);
 	}
 	
 
@@ -64,12 +64,12 @@ public class Login extends BaseClass{
 	}
 
 	@When("user clicks Login button")
-	public void user_clicks_login_button() {
+	public void user_clicks_login_button() throws InterruptedException {
 		lp.clicklogin();
 
 	}
 	@When("User clicking Register Link")
-	public void user_clicking_register_link() {
+	public void user_clicking_register_link() throws InterruptedException {
         lp.clickregister();
 	}
 

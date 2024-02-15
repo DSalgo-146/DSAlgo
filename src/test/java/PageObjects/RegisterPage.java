@@ -1,17 +1,16 @@
 package PageObjects;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import Utilities.BaseClass;
 
 public class RegisterPage extends BaseClass {
 	
 	//public WebDriver driver ;
 	
-	public RegisterPage(WebDriver rdriver) {
+	/*public RegisterPage(WebDriver rdriver) {
 		
 		driver = rdriver;
-	}
+	}*/
 	
 	By uname = By.id("id_username");
 	By pwd1 = By.id("id_password1");

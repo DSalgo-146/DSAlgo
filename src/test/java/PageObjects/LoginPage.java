@@ -1,15 +1,13 @@
 package PageObjects;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-
 import Utilities.BaseClass;
 
 public class LoginPage extends BaseClass {
 
-	public LoginPage(WebDriver rdriver) {
+	/*public LoginPage(WebDriver rdriver) {
 		driver = rdriver;
-	}
+	}*/
 	
 	By uname = By.id("id_username");
 	By pwd = By.id("id_password");
@@ -22,11 +20,13 @@ public class LoginPage extends BaseClass {
 	public void getpwd(String str) {
 		driver.findElement(pwd).sendKeys(str);
 	}
-	public void clicklogin() {
+	public void clicklogin() throws InterruptedException {
 		driver.findElement(login).click();
+		Thread.sleep(4000);
 	}
-	public void clickregister() {
+	public void clickregister() throws InterruptedException {
 		driver.findElement(register).click();
+		Thread.sleep(4000);
 	}
 	
 	
