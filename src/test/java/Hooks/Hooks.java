@@ -6,7 +6,11 @@ import java.time.Duration;
 import java.util.Properties;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 import PageObjects.DataStructure;
 import PageObjects.Homepage;
@@ -26,19 +30,37 @@ public class Hooks extends BaseClass {
 	@Before
 	public void setup() throws IOException {
 		
-		/*Properties configprop = new Properties();
+		Properties configprop = new Properties();
 		FileInputStream configpropfile = new FileInputStream("C:\\Users\\girij\\eclipse-workspace\\DS-AlgoProject\\src\\test\\resources\\config.properties");
 		configprop.load(configpropfile);
-		String br = configprop.getProperty("browser");*/
+		String br = configprop.getProperty("browser");
 		
-		System.setProperty("webdriver.chrome.driver", "D:/chromedriver-win64/chromedriver-win64/chromedriver.exe");
-		driver = new ChromeDriver();
+		//System.setProperty("webdriver.chrome.driver", "D:/chromedriver-win64/chromedriver-win64/chromedriver.exe");
 		
-		//WebDriverManager.edgedriver().setup();
-		/*System.setProperty("webdriver.edge.driver", "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe");
-		driver = new EdgeDriver();*/
 		
-		driver.manage().window().maximize();
+		
+		if(br.equals("chrome")) {
+			
+			ChromeOptions chromeoptions = new ChromeOptions();
+			chromeoptions.addArguments("start-maximized");
+			//chromeoptions.addArguments("headless");
+			driver = new ChromeDriver(chromeoptions);
+		} else if(br.equals("firefox")) {
+			
+			FirefoxOptions firefoxoptions = new FirefoxOptions();
+			firefoxoptions.addArguments("start-maximized");
+			//firefoxoptions.addArguments("headless");
+			driver = new FirefoxDriver(firefoxoptions);			
+		} else if(br.equals("edge")) {
+			
+			EdgeOptions edgeoptions = new EdgeOptions();
+			edgeoptions.addArguments("start-maximized");
+			//edgeoptions.addArguments("headless");
+			driver = new EdgeDriver(edgeoptions);
+		}
+
+		
+		//driver.manage().window().maximize();
 		//hp = new Homepage(driver);
 		hp = new Homepage();
 		rp = new RegisterPage();
