@@ -16,6 +16,6 @@ public class BaseClass {
 	public static LoginPage lp;
 	public static DataStructure ds;
 	public static TreePage tr;
-	
+	public static Arraypage Ap;
 		
 }
