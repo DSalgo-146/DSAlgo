@@ -55,7 +55,7 @@ public class Register extends BaseClass {
 	@Then("user clicks Register button")
 	public void user_clicks_register_button() throws InterruptedException {
       rp.clickregister();
-      Thread.sleep(4000);
+      Thread.sleep(10);
 	}
 
 	@Then("user will be registered")
@@ -88,7 +88,7 @@ public class Register extends BaseClass {
 	@Then("User should click Register button")
 	public void user_should_click_register_button() throws InterruptedException {
          rp.clickregister();
-         Thread.sleep(4000);
+         Thread.sleep(10);
 	}
 	
 	@Given("User on Register Page")
