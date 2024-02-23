@@ -42,7 +42,7 @@ public class DataStructure extends BaseClass {
 	}
 
 	public void sendpythoncode(String str) throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(10);
 		driver.findElement(editortext).sendKeys(str);
 	
 	}
@@ -58,7 +58,7 @@ public class DataStructure extends BaseClass {
 	}
 	public void sendwrongcode(String str) throws InterruptedException {
 		
-		Thread.sleep(2000);
+		Thread.sleep(10);
 		driver.findElement(editortext).sendKeys(str);
 		
 	}

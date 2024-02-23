@@ -23,26 +23,26 @@ public class TreePage extends BaseClass {
 	
 	public void clickgetstartontree() throws InterruptedException {
 		driver.findElement(getstarted).click();
-		Thread.sleep(2000);
+		Thread.sleep(10);
 	}
 	
 	public void clickoverview() throws InterruptedException {
 		driver.findElement(overview).click();
-		Thread.sleep(2000);
+		Thread.sleep(10);
 	}
 
 	public void clickterm() throws InterruptedException {
 		driver.findElement(terminology).click();
-		Thread.sleep(2000);
+		Thread.sleep(10);
 	}
 
 	public void clicktree() throws InterruptedException {
 		driver.findElement(typesoftress).click();
-		Thread.sleep(2000);
+		Thread.sleep(10);
 	}
 	public void clickttraverse() throws InterruptedException {
 		driver.findElement(treetraversal).click();
-		Thread.sleep(2000);
+		Thread.sleep(10);
 	}
 	public void clicktraverse() throws InterruptedException {
 		driver.findElement(traverseill).click();
@@ -50,36 +50,36 @@ public class TreePage extends BaseClass {
 	}
 	public void clickbinary() throws InterruptedException {
 		driver.findElement(binarytree).click();
-		Thread.sleep(2000);
+		Thread.sleep(10);
 	}
 	public void clickbinarytypes() throws InterruptedException {
 		driver.findElement(typesofbinary).click();
-		Thread.sleep(2000);
+		Thread.sleep(10);
 	}
 	
 	public void clickpyhon() throws InterruptedException {
 		driver.findElement(implepython).click();
-		Thread.sleep(2000);
+		Thread.sleep(10);
 	}
 	public void clickbinarytraverse() throws InterruptedException {
 		driver.findElement(binarytraversal).click();
-		Thread.sleep(2000);
+		Thread.sleep(10);
 	}
 	public void clickimpbinary() throws InterruptedException {
 		driver.findElement(implebinary).click();
-		Thread.sleep(2000);
+		Thread.sleep(10);
 	}
 	public void clickappbinary() throws InterruptedException {
 		driver.findElement(appbinary).click();
-		Thread.sleep(2000);
+		Thread.sleep(10);
 	}
 	public void clickbinarysearch() throws InterruptedException {
 		driver.findElement(binarysearch).click();
-		Thread.sleep(2000);
+		Thread.sleep(10);
 	}
 	public void clickbst() throws InterruptedException {
 		driver.findElement(implebst).click();
-		Thread.sleep(2000);
+		Thread.sleep(10);
 	}
 
 }

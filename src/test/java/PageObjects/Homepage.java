@@ -63,7 +63,7 @@ public class Homepage extends BaseClass {
         //driver.findElement(clickitem).click();
         
         driver.findElement(clickdrop).click();
-        Thread.sleep(2000);
+        Thread.sleep(10);
         driver.findElement(clickitemarray).click();
 		String alerttext = driver.findElement(alertmsg).getText();
 		System.out.println(alerttext);
@@ -78,42 +78,42 @@ public class Homepage extends BaseClass {
 		    throw e;
 		}*/
 		        
-        Thread.sleep(2000);
+        Thread.sleep(10);
         driver.findElement(clickdrop).click();
-        Thread.sleep(2000);
+        Thread.sleep(10);
         driver.findElement(clickitemll).click();
 		String alerttext1 = driver.findElement(alertmsg).getText();
 		System.out.println(alerttext1);
 
-        Thread.sleep(2000);
+        Thread.sleep(10);
         driver.findElement(clickdrop).click();
-        Thread.sleep(2000);
+        Thread.sleep(10);
         driver.findElement(clickitemstack).click();
 		String alerttext2 = driver.findElement(alertmsg).getText();
 		System.out.println(alerttext2);
 
-        Thread.sleep(2000);
+        Thread.sleep(10);
         driver.findElement(clickdrop).click();
-        Thread.sleep(2000);
+        Thread.sleep(10);
         driver.findElement(clickitemqueue).click();
 		String alerttext3 = driver.findElement(alertmsg).getText();
 		System.out.println(alerttext3);
 
-        Thread.sleep(2000);
+        Thread.sleep(10);
         driver.findElement(clickdrop).click();
-        Thread.sleep(2000);
+        Thread.sleep(10);
         driver.findElement(clickitemtree).click();
 		String alerttext4 = driver.findElement(alertmsg).getText();
 		System.out.println(alerttext4);
 
-        Thread.sleep(2000);
+        Thread.sleep(10);
         driver.findElement(clickdrop).click();
-        Thread.sleep(2000);
+        Thread.sleep(10);
         driver.findElement(clickitemgraph).click();
 		String alerttext5 = driver.findElement(alertmsg).getText();
 		System.out.println(alerttext5);
 
-        Thread.sleep(2000);
+        Thread.sleep(10);
 
 		//clickitem.click();
 	}
@@ -139,7 +139,7 @@ public class Homepage extends BaseClass {
 	}
 
 	public void clickgetstart() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(10);
 		//clickgetstart.click();
        // driver.findElement(clickgetstart).click();
         
@@ -147,37 +147,37 @@ public class Homepage extends BaseClass {
 		String alerttext1 = driver.findElement(alertmsg).getText();
 		System.out.println(alerttext1);
 
-        Thread.sleep(2000);
+        Thread.sleep(10);
         driver.findElement(clickarray).click();
 		String alerttext2 = driver.findElement(alertmsg).getText();
 		System.out.println(alerttext2);
 
-        Thread.sleep(2000);
+        Thread.sleep(10);
         driver.findElement(clickll).click();
 		String alerttext3 = driver.findElement(alertmsg).getText();
 		System.out.println(alerttext3);
 
-        Thread.sleep(2000);
+        Thread.sleep(10);
         driver.findElement(clickstack).click();
 		String alerttext4 = driver.findElement(alertmsg).getText();
 		System.out.println(alerttext4);
 
-        Thread.sleep(2000);
+        Thread.sleep(10);
         driver.findElement(clickqueue).click();
 		String alerttext5 = driver.findElement(alertmsg).getText();
 		System.out.println(alerttext5);
 
-        Thread.sleep(2000);
+        Thread.sleep(10);
         driver.findElement(clicktree).click();
 		String alerttext6 = driver.findElement(alertmsg).getText();
 		System.out.println(alerttext6);
 
-        Thread.sleep(2000);
+        Thread.sleep(10);
         driver.findElement(clickgraph).click();
 		String alerttext7 = driver.findElement(alertmsg).getText();
 		System.out.println(alerttext7);
 
-        Thread.sleep(2000);
+        Thread.sleep(10);
         
         
       /*  List<WebElement> listOfElements = driver.findElements(clickgetstart);
@@ -207,12 +207,12 @@ public class Homepage extends BaseClass {
 	public void register() throws InterruptedException {
 		//register.click();
 		driver.findElement(register).click();
-		Thread.sleep(2000);
+		Thread.sleep(10);
 	}
 
 	public void login() throws InterruptedException {
 		//login.click();
 		driver.findElement(login).click();
-		Thread.sleep(2000);
+		Thread.sleep(10);
 	}
 }

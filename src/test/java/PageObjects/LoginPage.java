@@ -22,11 +22,11 @@ public class LoginPage extends BaseClass {
 	}
 	public void clicklogin() throws InterruptedException {
 		driver.findElement(login).click();
-		Thread.sleep(4000);
+		Thread.sleep(10);
 	}
 	public void clickregister() throws InterruptedException {
 		driver.findElement(register).click();
-		Thread.sleep(4000);
+		Thread.sleep(10);
 	}
 	
 	
