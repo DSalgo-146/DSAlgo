@@ -21,7 +21,7 @@ public class DataStructure extends BaseClass {
 		
 	
        ds.getstarted();
-       Thread.sleep(2000);
+       Thread.sleep(10);
 	}
 
 	@Then("User redirects to Data Structure Intro Page")
@@ -32,7 +32,7 @@ public class DataStructure extends BaseClass {
 	@Then("User clicks Time Complexity link")
 	public void user_clicks_time_complexity_link() throws InterruptedException {
        ds.clicktime();
-       Thread.sleep(2000);
+       Thread.sleep(10);
 	}
 
 	@Then("User redirects to Time Complexity Page")
@@ -43,7 +43,7 @@ public class DataStructure extends BaseClass {
 	@When("User clicks Try Here button")
 	public void user_clicks_try_here_button() throws InterruptedException {
        ds.clicktryhere();
-       Thread.sleep(2000);
+       Thread.sleep(10);
 	}
 
 	@Then("User redirects to the Editor")
@@ -57,19 +57,19 @@ public class DataStructure extends BaseClass {
 
 		String code ="print \"Testing correct python code\"";
 		ds.sendpythoncode(code);
-		Thread.sleep(2000);
+		Thread.sleep(10);
 	}
 
 	@When("User clicks Run button")
 	public void user_clicks_run_button() throws InterruptedException {
 		ds.clickrun();
-	    Thread.sleep(2000);
+	    Thread.sleep(10);
 	}
 
 	@Then("That python Code will be displayed down")
 	public void that_python_code_will_be_displayed_down() throws InterruptedException {
         ds.printoutput();
-        Thread.sleep(2000);
+        Thread.sleep(10);
 	}
 	
 	@Then("User types wrong python code")
@@ -81,20 +81,20 @@ public class DataStructure extends BaseClass {
 		
 		String code ="Testing wrong python code";
 		ds.sendwrongcode(code);
-		Thread.sleep(2000);
+		Thread.sleep(10);
 
 	}
 
 	@Then("Error Alert Message will be displayed")
 	public void error_alert_message_will_be_displayed() throws InterruptedException {
 		ds.printerrormsg();
-        Thread.sleep(2000);		
+        Thread.sleep(10);		
 	}	
 	
 	@When("User clicks Practical Questions Link")
 	public void user_clicks_practical_questions_link() throws InterruptedException {
         ds.clickpracques();
-        Thread.sleep(2000);
+        Thread.sleep(10);
 	}
 
 	@Then("User redirects to Practical Questions Page")
