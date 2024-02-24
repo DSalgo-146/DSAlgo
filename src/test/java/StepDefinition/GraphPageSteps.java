@@ -2,12 +2,13 @@ package StepDefinition;
 
 import java.time.Duration;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import PageObject.GraphPage;
-import PageObject.linkedlistpage;
-import hooks.BaseclassforDriver;
+import PageObjects.GraphPage;
+import PageObjects.linkedlistpage;
+//import hooks.BaseclassforDriver;
 import io.cucumber.java.en.*;
 
 public class GraphPageSteps {
@@ -15,10 +16,10 @@ public class GraphPageSteps {
 WebDriver driver;
 WebDriverWait wait;
 
-public GraphPageSteps() {
+/*public GraphPageSteps() {
     this.driver = BaseclassforDriver.getdriver();
       
-  }
+  }*/
   public static  GraphPage graph;
 
 
