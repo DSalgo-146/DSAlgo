@@ -45,10 +45,11 @@ public class Hooks extends BaseClass {
 		
 		if(br.equals("chrome")) {
 			
-			ChromeOptions chromeoptions = new ChromeOptions();
-			chromeoptions.addArguments("start-maximized");
+			//ChromeOptions chromeoptions = new ChromeOptions();
+			//chromeoptions.addArguments("start-maximized");
 			//chromeoptions.addArguments("headless");
-			driver = new ChromeDriver(chromeoptions);
+			//driver = new ChromeDriver(chromeoptions);
+			driver = new ChromeDriver();
 		} else if(br.equals("firefox")) {
 			
 			FirefoxOptions firefoxoptions = new FirefoxOptions();
