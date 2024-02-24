@@ -39,7 +39,7 @@ public class Hooks extends BaseClass {
 		configprop.load(configpropfile);
 		String br = configprop.getProperty("browser");
 		
-		//System.setProperty("webdriver.chrome.driver", "D:/chromedriver-win64/chromedriver-win64/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:/chromedriver-win64/chromedriver-win64/chromedriver.exe");
 		
 		
 		
