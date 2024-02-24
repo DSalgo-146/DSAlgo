@@ -1,6 +1,7 @@
-package pageobjects;
+package PageObjects;
 
 import java.time.Duration;
+
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -12,9 +13,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import utilities.baseclass;
+import Utilities.BaseClass;
 
-public class Arraypage extends baseclass{
+public class Arraypage extends BaseClass{
 
 	
 private  By username=By.xpath("//input[@id='id_username']");
@@ -32,12 +33,14 @@ private By findnowithevendigits=By.linkText("Find Numbers with Even Number of Di
 private By squaresofsortarray=By.linkText("Squares of a Sorted Array");
 private By Tryhere=By.linkText("Try here>>>");
 private By texteditor=By.xpath("//div[@class='input']/div/div/textarea");
+//private By texteditor=By.xpath("//*[@id='answer_form']/div/div/div[1]/textarea");
 private By console=By.xpath("//div[@class='code-area']/div/pre[@id='output']");
 private By runbtn=By.xpath("//button[text()='Run']");
 
-public Arraypage(WebDriver dr) {
-		Arraypage.driver=dr;
-}
+/*public Arraypage(WebDriver dr) {
+		//Arraypage.driver=dr;
+	
+}*/
 public void enterusername(String uname) throws InterruptedException {
 	
 	driver.findElement(username).clear();

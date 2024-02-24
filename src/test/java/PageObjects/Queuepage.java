@@ -1,13 +1,16 @@
-package pageobject;
+package PageObjects;
 
 import org.openqa.selenium.Alert;
+
 import org.openqa.selenium.By;
 
 import org.openqa.selenium.WebDriver;
 
-public class queue {
+import Utilities.BaseClass;
 
-	static WebDriver driver;
+public class Queuepage extends BaseClass{
+
+	//static WebDriver driver;
     By btnGetstarted=By.xpath("//button[@class='btn']");
     By txtSignin=By.xpath("//a[@href='/login']");
     By txtusername=By.name("username");
@@ -25,10 +28,10 @@ public class queue {
 	By linktextimplementationusingarray=By.linkText("Implementation using array");
 	By linktextQueueoperations=By.linkText("Queue Operations");
 
-public queue(WebDriver driver){
+/*public Queuepage(WebDriver driver){
 
 	this.driver= driver;
-}
+}*/
 public void clickGetstarted() {
 	
 	driver.findElement(btnGetstarted).click();

@@ -1,6 +1,7 @@
-package stepdefinitions;
+package StepDefinition;
 
 import java.time.Duration;
+
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -9,19 +10,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import log4j2.LoggerLoad;
-import pageobjects.Arraypage;
-import pageobjects.Registerpage;
-import utilities.baseclass;
+import Utilities.BaseClass;
+import Utilities.LoggerLoad;
 
-public class ArrayPage_SD extends baseclass{
+
+public class ArrayPage_SD extends BaseClass{
 
 	//public WebDriver driver;
-	
+	//public static ArrayPage ap;
 		
 	@Given("user is on login page")
 	public void user_is_on_login_page() {
@@ -99,7 +98,7 @@ public class ArrayPage_SD extends baseclass{
 	
 	@When("user enters correct python code in the Text editor with {string}")
 	public void user_enters_correct_python_code_in_the_text_editor_with(String string) throws InterruptedException {
-		Thread.sleep(1000);
+		Thread.sleep(4000);
 		Ap.sendtexteditor(string);
 
 	}
@@ -119,7 +118,7 @@ public class ArrayPage_SD extends baseclass{
 	}
 	@When("user enters incorrect python code in the Text editor with {string}")
 	public void user_enters_incorrect_python_code_in_the_text_editor_with(String string) throws InterruptedException {
-		Thread.sleep(1000);
+		Thread.sleep(4000);
 		driver.get("https://dsportalapp.herokuapp.com/tryEditor");
 		Ap.sendtexteditor(string);
 	}

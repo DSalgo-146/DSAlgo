@@ -1,6 +1,7 @@
 package Hooks;
 
 import java.io.FileInputStream;
+
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
@@ -12,11 +13,14 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
+import PageObjects.Arraypage;
 import PageObjects.DataStructure;
 import PageObjects.Homepage;
 import PageObjects.LoginPage;
 import PageObjects.RegisterPage;
 import PageObjects.TreePage;
+import PageObjects.linkedlistpage;
+import PageObjects.Queuepage;
 import Utilities.BaseClass;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -67,6 +71,9 @@ public class Hooks extends BaseClass {
 		lp = new LoginPage();
 		ds = new DataStructure();
 		tr = new TreePage();
+		Ap = new Arraypage();
+		linkedlistpage linkedlist = new linkedlistpage();
+		qu = new Queuepage();
 		
 	}
 	@After

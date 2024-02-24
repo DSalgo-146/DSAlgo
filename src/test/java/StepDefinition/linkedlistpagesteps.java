@@ -1,30 +1,30 @@
 package StepDefinition;
 
-import PageObject.linkedlistpage;
-
+import PageObjects.linkedlistpage;
+import Utilities.BaseClass;
 
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import hooks.BaseclassforDriver;
+//import hooks.BaseclassforDriver;
 import io.cucumber.java.en.*;
 
 
-public class linkedlistpagesteps {
+public class linkedlistpagesteps extends BaseClass {
  	
-	WebDriver driver;
+	//WebDriver driver;
  WebDriverWait wait;
-    public linkedlistpagesteps() {
+  /*  public linkedlistpagesteps() {
      this.driver = BaseclassforDriver.getdriver();
        
-   }
+   }*/
    public static  linkedlistpage linkedlist;
 
 	@Given("I am logged in with valid credentials")
 	public void i_am_logged_in_with_valid_credentials() throws InterruptedException {
-		 linkedlist = new linkedlistpage(driver);
+		 //linkedlist = new linkedlistpage(driver);
 		 linkedlist.get("https://dsportalapp.herokuapp.com/login");
 		 linkedlist.login("Dsalgo@146","Gpss@146");
 		 linkedlist.clickloginButton();

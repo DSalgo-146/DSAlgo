@@ -2,11 +2,14 @@ package Utilities;
 
 import org.openqa.selenium.WebDriver;
 
+import PageObjects.Arraypage;
 import PageObjects.DataStructure;
 import PageObjects.Homepage;
 import PageObjects.LoginPage;
 import PageObjects.RegisterPage;
 import PageObjects.TreePage;
+import PageObjects.linkedlistpage;
+import PageObjects.Queuepage;
 
 public class BaseClass {
 
@@ -17,6 +20,7 @@ public class BaseClass {
 	public static DataStructure ds;
 	public static TreePage tr;
 	public static Arraypage Ap;
-	
+	public static linkedlistpage linkedllst;
+    public static Queuepage qu;
 		
 }

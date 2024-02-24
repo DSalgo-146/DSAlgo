@@ -1,19 +1,21 @@
-package Stepdefinitions;
+package StepDefinition;
 
 import org.openqa.selenium.WebDriver;
 
+
 import org.openqa.selenium.chrome.ChromeDriver;
-import pageobject.queue;
+import PageObjects.Queuepage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import Utilities.BaseClass;
 //import cucumberpages.Base;
 //import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Queuesteps  {
-	 public static WebDriver driver= null;
+public class Queuesteps  extends BaseClass {
+	 //public static WebDriver driver= null;
 	//queue qu=new queue(driver);
-    public static queue qu;
+   // public static queue qu;
    
 	@Given("user is in Dsalgo homepage")
 	public void user_is_in_dsalgo_homepage() {
@@ -21,7 +23,7 @@ public class Queuesteps  {
 	//	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 	//	driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(6));
 	    driver=new ChromeDriver();
-     	 qu=new queue(driver);
+     	// qu=new queue(driver);
      	driver.manage().window().maximize();
 	  driver.get("https://dsportalapp.herokuapp.com/home");
 	}

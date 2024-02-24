@@ -1,6 +1,7 @@
-package PageObject;
+package PageObjects;
 
 import java.time.Duration;
+
 import java.util.concurrent.TimeoutException;
 
 import org.openqa.selenium.Alert;
@@ -13,12 +14,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import hooks.BaseclassforDriver;
+//import hooks.BaseclassforDriver;
+import Utilities.BaseClass;
 import junit.framework.Assert;
 
-public class linkedlistpage {
+public class linkedlistpage extends BaseClass {
 	//private static final By errorMessage = null;
-	public WebDriver driver;
+	//public WebDriver driver;
 	public WebDriverWait wait;
 	 
 	    
@@ -42,10 +44,10 @@ public class linkedlistpage {
 		private By passwordField 	  = By.xpath("//input[@id='id_password']");
 	     
  
-	      public linkedlistpage(WebDriver driver) {
+	   /*   public linkedlistpage(WebDriver driver) {
 	        this.driver = driver;
 	      
-	    }
+	    }*/
 	      
 	    
 	     // wait = new WebDriverWait(driver, Duration.ofSeconds(10)); 

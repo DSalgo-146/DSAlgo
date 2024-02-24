@@ -1,24 +1,435 @@
-[INFO ]2024-02-1422:36:53.886[main]Utilities.LoggerLoad1)-User opens DSAlgo Portal
-[INFO ]2024-02-1422:36:54.135[main]Utilities.LoggerLoad1)-User click GetStarted button
-[INFO ]2024-02-1422:36:55.666[main]Utilities.LoggerLoad1)-User on a DSAlgo Portal Home Page
-[INFO ]2024-02-1422:36:56.084[main]Utilities.LoggerLoad1)-User clicks Data Structures dropdown
-[INFO ]2024-02-1422:36:56.091[main]Utilities.LoggerLoad1)-User selects data structure from dropdown
-[INFO ]2024-02-1422:37:24.211[main]Utilities.LoggerLoad1)-alert user with the message {string}
-[INFO ]2024-02-1422:37:25.289[main]Utilities.LoggerLoad1)-User in on Home Page
-[INFO ]2024-02-1422:37:25.818[main]Utilities.LoggerLoad1)-User clicks Get Started button in Data Structure Topics
-[INFO ]2024-02-1422:37:44.422[main]Utilities.LoggerLoad1)-alert user with the message {string}
-[INFO ]2024-02-1422:37:45.439[main]Utilities.LoggerLoad1)-User on a DSAlgo Portal Home Page
-[INFO ]2024-02-1422:37:46.040[main]Utilities.LoggerLoad1)-User clicks Register Link
-[INFO ]2024-02-1422:37:49.211[main]Utilities.LoggerLoad1)-User on a DSAlgo Portal Home Page
-[INFO ]2024-02-1422:37:51.818[main]Utilities.LoggerLoad1)-User Clicks Sign in Link
-[INFO ]2024-02-1510:08:16.391[main]Utilities.LoggerLoad1)-User opens DSAlgo Portal
-[INFO ]2024-02-1510:08:16.636[main]Utilities.LoggerLoad1)-User click GetStarted button
-[INFO ]2024-02-1510:08:46.372[main]Utilities.LoggerLoad1)-User opens DSAlgo Portal
-[INFO ]2024-02-1510:08:46.729[main]Utilities.LoggerLoad1)-User click GetStarted button
-[INFO ]2024-02-1511:21:25.112[main]Utilities.LoggerLoad1)-User opens DSAlgo Portal
-[INFO ]2024-02-1511:21:25.428[main]Utilities.LoggerLoad1)-User click GetStarted button
-[INFO ]2024-02-1512:36:02.855[main]Utilities.LoggerLoad1)-User opens DSAlgo Portal
-[INFO ]2024-02-1512:36:03.459[main]Utilities.LoggerLoad1)-User click GetStarted button
-[INFO ]2024-02-1512:36:03.461[main]Utilities.LoggerLoad1)-Testing Getstarted
-[WARN ]2024-02-1512:36:03.461[main]Utilities.LoggerLoad1)-Testing warning
-[ERROR]2024-02-1512:36:03.462[main]Utilities.LoggerLoad1)-Testing error
+[INFO ]2024-02-2313:33:36.545[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:33:39.295[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:33:41.349[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:33:43.341[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:33:45.486[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:41:18.702[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:41:20.780[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:41:22.884[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:41:25.014[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:41:27.180[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:43:05.886[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:43:08.269[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:43:10.656[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:43:12.703[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:43:14.707[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:47:57.197[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:47:59.877[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:48:01.509[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:48:04.464[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:48:06.391[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:58:39.185[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:58:40.913[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:58:42.410[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:58:44.861[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2313:58:47.197[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:10:21.092[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:10:22.965[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:10:24.528[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:10:26.753[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:10:28.441[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:26:51.039[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:26:52.767[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:26:54.249[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:26:55.803[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:26:57.269[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:33:08.699[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:33:11.374[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:33:14.626[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:33:17.219[main]Utilities.LoggerLoad1)-User is on Arrays in Python Page
+[INFO ]2024-02-2314:33:23.459[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:33:26.971[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:33:30.244[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:33:32.902[main]Utilities.LoggerLoad1)-User is on Array Using List Page
+[INFO ]2024-02-2314:33:44.443[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:33:47.517[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:33:50.775[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:33:50.999[main]Utilities.LoggerLoad1)-User is on Basic Operations in List Page
+[INFO ]2024-02-2314:34:01.457[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:34:04.833[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:34:08.108[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:34:08.346[main]Utilities.LoggerLoad1)-User is on Applications Of Array Page
+[INFO ]2024-02-2314:34:18.850[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:34:22.407[main]Utilities.LoggerLoad1)-User is on Practice Questions Page
+[INFO ]2024-02-2314:34:25.662[main]Utilities.LoggerLoad1)-User is on Search the Array Question Page
+[INFO ]2024-02-2314:34:31.396[main]Utilities.LoggerLoad1)-User clicks Max Consecutive Ones Question link
+[INFO ]2024-02-2314:34:37.416[main]Utilities.LoggerLoad1)-User clicks 'Find number with even digits' Question link
+[INFO ]2024-02-2314:34:43.776[main]Utilities.LoggerLoad1)-User clicks 'Squares of a Sorted Array' Question link
+[INFO ]2024-02-2314:38:10.665[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:38:13.596[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:38:16.870[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:38:19.569[main]Utilities.LoggerLoad1)-User is on Arrays in Python Page
+[INFO ]2024-02-2314:38:25.393[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:38:27.867[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:38:31.162[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:38:33.564[main]Utilities.LoggerLoad1)-User is on Array Using List Page
+[INFO ]2024-02-2314:38:39.687[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:38:41.640[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:38:44.890[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:38:45.126[main]Utilities.LoggerLoad1)-User is on Basic Operations in List Page
+[INFO ]2024-02-2314:38:50.534[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:38:52.916[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:38:56.159[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:38:56.402[main]Utilities.LoggerLoad1)-User is on Applications Of Array Page
+[INFO ]2024-02-2314:39:02.120[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:39:04.608[main]Utilities.LoggerLoad1)-User is on Practice Questions Page
+[INFO ]2024-02-2314:39:08.401[main]Utilities.LoggerLoad1)-User is on Search the Array Question Page
+[INFO ]2024-02-2314:40:48.481[main]Utilities.LoggerLoad1)-User in on Home Page
+[INFO ]2024-02-2314:40:53.058[main]Utilities.LoggerLoad1)-User Clicks Sign in Link
+[INFO ]2024-02-2314:40:57.625[main]Utilities.LoggerLoad1)-User in on Home Page
+[INFO ]2024-02-2314:40:58.556[main]Utilities.LoggerLoad1)-User Clicks Sign in Link
+[INFO ]2024-02-2314:41:02.954[main]Utilities.LoggerLoad1)-User in on Home Page
+[INFO ]2024-02-2314:41:04.269[main]Utilities.LoggerLoad1)-User Clicks Sign in Link
+[INFO ]2024-02-2314:41:09.313[main]Utilities.LoggerLoad1)-User in on Home Page
+[INFO ]2024-02-2314:41:09.897[main]Utilities.LoggerLoad1)-User Clicks Sign in Link
+[INFO ]2024-02-2314:41:14.388[main]Utilities.LoggerLoad1)-User in on Home Page
+[INFO ]2024-02-2314:41:15.623[main]Utilities.LoggerLoad1)-User Clicks Sign in Link
+[INFO ]2024-02-2314:41:22.916[main]Utilities.LoggerLoad1)-User in on Home Page
+[INFO ]2024-02-2314:41:23.801[main]Utilities.LoggerLoad1)-User Clicks Sign in Link
+[INFO ]2024-02-2314:41:28.016[main]Utilities.LoggerLoad1)-User in on Home Page
+[INFO ]2024-02-2314:41:29.598[main]Utilities.LoggerLoad1)-User Clicks Sign in Link
+[INFO ]2024-02-2314:41:33.755[main]Utilities.LoggerLoad1)-User in on Home Page
+[INFO ]2024-02-2314:41:34.594[main]Utilities.LoggerLoad1)-User Clicks Sign in Link
+[INFO ]2024-02-2314:41:39.243[main]Utilities.LoggerLoad1)-User in on Home Page
+[INFO ]2024-02-2314:41:40.112[main]Utilities.LoggerLoad1)-User Clicks Sign in Link
+[INFO ]2024-02-2314:41:44.909[main]Utilities.LoggerLoad1)-User in on Home Page
+[INFO ]2024-02-2314:41:45.471[main]Utilities.LoggerLoad1)-User Clicks Sign in Link
+[INFO ]2024-02-2314:41:49.982[main]Utilities.LoggerLoad1)-User in on Home Page
+[INFO ]2024-02-2314:41:50.535[main]Utilities.LoggerLoad1)-User Clicks Sign in Link
+[INFO ]2024-02-2314:41:55.011[main]Utilities.LoggerLoad1)-User in on Home Page
+[INFO ]2024-02-2314:41:55.678[main]Utilities.LoggerLoad1)-User Clicks Sign in Link
+[INFO ]2024-02-2314:41:59.886[main]Utilities.LoggerLoad1)-User in on Home Page
+[INFO ]2024-02-2314:42:00.406[main]Utilities.LoggerLoad1)-User Clicks Sign in Link
+[INFO ]2024-02-2314:45:41.988[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:45:44.035[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:45:47.288[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:45:50.241[main]Utilities.LoggerLoad1)-User is on Arrays in Python Page
+[INFO ]2024-02-2314:46:05.786[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:46:08.718[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:46:11.948[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:46:14.236[main]Utilities.LoggerLoad1)-User is on Array Using List Page
+[INFO ]2024-02-2314:46:20.735[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:46:22.953[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:46:26.236[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:46:26.527[main]Utilities.LoggerLoad1)-User is on Basic Operations in List Page
+[INFO ]2024-02-2314:46:32.702[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:46:34.798[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:46:38.096[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:46:38.345[main]Utilities.LoggerLoad1)-User is on Applications Of Array Page
+[INFO ]2024-02-2314:46:49.268[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:46:53.002[main]Utilities.LoggerLoad1)-User is on Practice Questions Page
+[INFO ]2024-02-2314:46:56.413[main]Utilities.LoggerLoad1)-User is on Search the Array Question Page
+[INFO ]2024-02-2314:48:37.539[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:48:46.476[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:48:51.460[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:48:55.065[main]Utilities.LoggerLoad1)-User is on Arrays in Python Page
+[INFO ]2024-02-2314:49:04.881[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:49:15.084[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:49:20.893[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:49:23.529[main]Utilities.LoggerLoad1)-User is on Array Using List Page
+[INFO ]2024-02-2314:49:28.999[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:49:37.959[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:49:42.804[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:49:43.609[main]Utilities.LoggerLoad1)-User is on Basic Operations in List Page
+[INFO ]2024-02-2314:49:49.600[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:50:01.624[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:50:05.051[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:50:05.577[main]Utilities.LoggerLoad1)-User is on Applications Of Array Page
+[INFO ]2024-02-2314:50:11.507[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:50:23.076[main]Utilities.LoggerLoad1)-User is on Practice Questions Page
+[INFO ]2024-02-2314:50:27.352[main]Utilities.LoggerLoad1)-User is on Search the Array Question Page
+[INFO ]2024-02-2314:51:26.079[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:51:28.103[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:51:31.386[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:51:33.953[main]Utilities.LoggerLoad1)-User is on Arrays in Python Page
+[INFO ]2024-02-2314:51:52.510[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:51:54.463[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:51:57.700[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:51:59.955[main]Utilities.LoggerLoad1)-User is on Array Using List Page
+[INFO ]2024-02-2314:52:07.027[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:52:09.115[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:52:12.396[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:52:12.645[main]Utilities.LoggerLoad1)-User is on Basic Operations in List Page
+[INFO ]2024-02-2314:52:17.916[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:52:19.908[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:52:23.142[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:52:23.882[main]Utilities.LoggerLoad1)-User is on Applications Of Array Page
+[INFO ]2024-02-2314:52:29.543[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:52:32.370[main]Utilities.LoggerLoad1)-User is on Practice Questions Page
+[INFO ]2024-02-2314:52:35.538[main]Utilities.LoggerLoad1)-User is on Search the Array Question Page
+[INFO ]2024-02-2314:52:41.214[main]Utilities.LoggerLoad1)-User clicks Max Consecutive Ones Question link
+[INFO ]2024-02-2314:52:47.534[main]Utilities.LoggerLoad1)-User clicks 'Find number with even digits' Question link
+[INFO ]2024-02-2314:52:53.115[main]Utilities.LoggerLoad1)-User clicks 'Squares of a Sorted Array' Question link
+[INFO ]2024-02-2314:56:15.874[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:56:18.893[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:56:22.177[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:56:24.515[main]Utilities.LoggerLoad1)-User is on Arrays in Python Page
+[INFO ]2024-02-2314:56:45.789[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:56:47.813[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:56:51.058[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:56:53.323[main]Utilities.LoggerLoad1)-User is on Array Using List Page
+[INFO ]2024-02-2314:57:08.007[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:57:10.006[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:57:13.235[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:57:13.460[main]Utilities.LoggerLoad1)-User is on Basic Operations in List Page
+[INFO ]2024-02-2314:57:21.724[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:57:24.859[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2314:57:28.099[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2314:57:28.354[main]Utilities.LoggerLoad1)-User is on Applications Of Array Page
+[INFO ]2024-02-2314:57:41.879[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2314:57:45.482[main]Utilities.LoggerLoad1)-User is on Practice Questions Page
+[INFO ]2024-02-2314:57:48.650[main]Utilities.LoggerLoad1)-User is on Search the Array Question Page
+[INFO ]2024-02-2314:57:54.387[main]Utilities.LoggerLoad1)-User clicks Max Consecutive Ones Question link
+[INFO ]2024-02-2314:58:00.092[main]Utilities.LoggerLoad1)-User clicks 'Find number with even digits' Question link
+[INFO ]2024-02-2314:58:05.731[main]Utilities.LoggerLoad1)-User clicks 'Squares of a Sorted Array' Question link
+[INFO ]2024-02-2316:18:35.037[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:18:37.452[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:18:40.783[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:18:43.639[main]Utilities.LoggerLoad1)-User is on Arrays in Python Page
+[INFO ]2024-02-2316:19:03.022[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:19:05.349[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:19:08.609[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:19:10.873[main]Utilities.LoggerLoad1)-User is on Array Using List Page
+[INFO ]2024-02-2316:19:20.099[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:19:22.897[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:19:26.159[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:19:26.799[main]Utilities.LoggerLoad1)-User is on Basic Operations in List Page
+[INFO ]2024-02-2316:19:35.750[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:19:37.841[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:19:41.082[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:19:41.326[main]Utilities.LoggerLoad1)-User is on Applications Of Array Page
+[INFO ]2024-02-2316:19:50.052[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:19:52.544[main]Utilities.LoggerLoad1)-User is on Practice Questions Page
+[INFO ]2024-02-2316:19:56.251[main]Utilities.LoggerLoad1)-User is on Search the Array Question Page
+[INFO ]2024-02-2316:20:01.746[main]Utilities.LoggerLoad1)-User clicks Max Consecutive Ones Question link
+[INFO ]2024-02-2316:24:18.342[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:24:20.896[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:24:24.184[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:24:27.048[main]Utilities.LoggerLoad1)-User is on Arrays in Python Page
+[INFO ]2024-02-2316:24:48.094[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:24:50.097[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:24:53.357[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:24:55.618[main]Utilities.LoggerLoad1)-User is on Array Using List Page
+[INFO ]2024-02-2316:25:04.540[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:25:07.759[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:25:11.343[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:25:11.568[main]Utilities.LoggerLoad1)-User is on Basic Operations in List Page
+[INFO ]2024-02-2316:25:21.121[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:25:23.132[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:25:26.385[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:25:26.612[main]Utilities.LoggerLoad1)-User is on Applications Of Array Page
+[INFO ]2024-02-2316:25:34.967[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:25:37.756[main]Utilities.LoggerLoad1)-User is on Practice Questions Page
+[INFO ]2024-02-2316:25:40.950[main]Utilities.LoggerLoad1)-User is on Search the Array Question Page
+[INFO ]2024-02-2316:25:46.427[main]Utilities.LoggerLoad1)-User clicks Max Consecutive Ones Question link
+[INFO ]2024-02-2316:25:52.044[main]Utilities.LoggerLoad1)-User clicks 'Find number with even digits' Question link
+[INFO ]2024-02-2316:25:58.174[main]Utilities.LoggerLoad1)-User clicks 'Squares of a Sorted Array' Question link
+[INFO ]2024-02-2316:30:02.555[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:30:05.527[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:30:09.004[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:30:11.310[main]Utilities.LoggerLoad1)-User is on Arrays in Python Page
+[INFO ]2024-02-2316:30:20.011[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:30:22.627[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:30:25.962[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:30:28.235[main]Utilities.LoggerLoad1)-User is on Array Using List Page
+[INFO ]2024-02-2316:30:37.130[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:30:39.758[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:30:43.047[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:30:43.284[main]Utilities.LoggerLoad1)-User is on Basic Operations in List Page
+[INFO ]2024-02-2316:30:51.585[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:30:53.722[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:30:57.009[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:30:57.253[main]Utilities.LoggerLoad1)-User is on Applications Of Array Page
+[INFO ]2024-02-2316:31:05.797[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:31:08.865[main]Utilities.LoggerLoad1)-User is on Practice Questions Page
+[INFO ]2024-02-2316:31:12.199[main]Utilities.LoggerLoad1)-User is on Search the Array Question Page
+[INFO ]2024-02-2316:35:16.409[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:35:18.623[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:35:21.878[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:35:24.271[main]Utilities.LoggerLoad1)-User is on Arrays in Python Page
+[INFO ]2024-02-2316:35:33.767[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:35:36.558[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:35:39.832[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:35:42.133[main]Utilities.LoggerLoad1)-User is on Array Using List Page
+[INFO ]2024-02-2316:35:50.701[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:35:53.218[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:35:56.698[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:35:56.947[main]Utilities.LoggerLoad1)-User is on Basic Operations in List Page
+[INFO ]2024-02-2316:36:11.025[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:36:13.108[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:36:16.364[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:36:16.605[main]Utilities.LoggerLoad1)-User is on Applications Of Array Page
+[INFO ]2024-02-2316:36:30.221[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:36:34.250[main]Utilities.LoggerLoad1)-User is on Practice Questions Page
+[INFO ]2024-02-2316:36:37.541[main]Utilities.LoggerLoad1)-User is on Search the Array Question Page
+[INFO ]2024-02-2316:36:42.917[main]Utilities.LoggerLoad1)-User clicks Max Consecutive Ones Question link
+[INFO ]2024-02-2316:36:48.612[main]Utilities.LoggerLoad1)-User clicks 'Find number with even digits' Question link
+[INFO ]2024-02-2316:36:54.193[main]Utilities.LoggerLoad1)-User clicks 'Squares of a Sorted Array' Question link
+[INFO ]2024-02-2316:37:56.066[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:37:59.261[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:38:03.067[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:38:05.376[main]Utilities.LoggerLoad1)-User is on Arrays in Python Page
+[INFO ]2024-02-2316:38:14.738[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:38:18.450[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:38:22.024[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:38:24.306[main]Utilities.LoggerLoad1)-User is on Array Using List Page
+[INFO ]2024-02-2316:38:34.877[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:38:37.247[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:38:40.506[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:38:40.818[main]Utilities.LoggerLoad1)-User is on Basic Operations in List Page
+[INFO ]2024-02-2316:38:54.736[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:38:56.909[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:39:00.147[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:39:00.398[main]Utilities.LoggerLoad1)-User is on Applications Of Array Page
+[INFO ]2024-02-2316:39:09.151[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:39:11.823[main]Utilities.LoggerLoad1)-User is on Practice Questions Page
+[INFO ]2024-02-2316:39:15.197[main]Utilities.LoggerLoad1)-User is on Search the Array Question Page
+[INFO ]2024-02-2316:39:45.339[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:39:47.828[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:39:51.097[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:39:53.480[main]Utilities.LoggerLoad1)-User is on Arrays in Python Page
+[INFO ]2024-02-2316:40:12.631[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:40:15.665[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:40:19.439[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:40:21.728[main]Utilities.LoggerLoad1)-User is on Array Using List Page
+[INFO ]2024-02-2316:40:32.234[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:40:34.662[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:40:37.948[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:40:38.206[main]Utilities.LoggerLoad1)-User is on Basic Operations in List Page
+[INFO ]2024-02-2316:40:46.538[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:40:48.565[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2316:40:51.814[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2316:40:52.037[main]Utilities.LoggerLoad1)-User is on Applications Of Array Page
+[INFO ]2024-02-2316:41:00.729[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2316:41:03.543[main]Utilities.LoggerLoad1)-User is on Practice Questions Page
+[INFO ]2024-02-2316:41:06.780[main]Utilities.LoggerLoad1)-User is on Search the Array Question Page
+[INFO ]2024-02-2316:41:12.377[main]Utilities.LoggerLoad1)-User clicks Max Consecutive Ones Question link
+[INFO ]2024-02-2316:41:18.296[main]Utilities.LoggerLoad1)-User clicks 'Find number with even digits' Question link
+[INFO ]2024-02-2316:41:23.990[main]Utilities.LoggerLoad1)-User clicks 'Squares of a Sorted Array' Question link
+[INFO ]2024-02-2320:12:42.098[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2320:12:46.164[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2320:12:49.425[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2320:12:51.960[main]Utilities.LoggerLoad1)-User is on Arrays in Python Page
+[INFO ]2024-02-2320:13:00.316[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2320:13:02.708[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2320:13:05.963[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2320:13:08.265[main]Utilities.LoggerLoad1)-User is on Array Using List Page
+[INFO ]2024-02-2320:13:22.485[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2320:13:24.906[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2320:13:28.207[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2320:13:28.464[main]Utilities.LoggerLoad1)-User is on Basic Operations in List Page
+[INFO ]2024-02-2320:13:43.721[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2320:13:46.410[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2320:13:49.711[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2320:13:50.560[main]Utilities.LoggerLoad1)-User is on Applications Of Array Page
+[INFO ]2024-02-2320:14:04.096[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2320:14:08.598[main]Utilities.LoggerLoad1)-User is on Practice Questions Page
+[INFO ]2024-02-2320:14:12.734[main]Utilities.LoggerLoad1)-User is on Search the Array Question Page
+[INFO ]2024-02-2320:14:18.187[main]Utilities.LoggerLoad1)-User clicks Max Consecutive Ones Question link
+[INFO ]2024-02-2320:14:48.436[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2320:14:50.557[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2320:14:53.803[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2320:14:56.193[main]Utilities.LoggerLoad1)-User is on Arrays in Python Page
+[INFO ]2024-02-2320:15:16.961[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2320:15:19.114[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2320:15:22.403[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2320:15:24.635[main]Utilities.LoggerLoad1)-User is on Array Using List Page
+[INFO ]2024-02-2320:15:34.316[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2320:15:36.380[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2320:15:39.643[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2320:15:39.876[main]Utilities.LoggerLoad1)-User is on Basic Operations in List Page
+[INFO ]2024-02-2320:15:53.357[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2320:15:55.392[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2320:15:58.616[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2320:15:59.306[main]Utilities.LoggerLoad1)-User is on Applications Of Array Page
+[INFO ]2024-02-2320:16:07.838[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2320:16:10.837[main]Utilities.LoggerLoad1)-User is on Practice Questions Page
+[INFO ]2024-02-2320:16:14.017[main]Utilities.LoggerLoad1)-User is on Search the Array Question Page
+[INFO ]2024-02-2410:38:45.303[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:38:48.936[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2410:38:52.254[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2410:38:54.846[main]Utilities.LoggerLoad1)-User is on Arrays in Python Page
+[INFO ]2024-02-2410:39:16.349[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:39:18.533[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2410:39:21.834[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2410:39:24.166[main]Utilities.LoggerLoad1)-User is on Array Using List Page
+[INFO ]2024-02-2410:39:38.425[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:39:40.609[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2410:39:43.930[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2410:39:44.564[main]Utilities.LoggerLoad1)-User is on Basic Operations in List Page
+[INFO ]2024-02-2410:39:58.948[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:40:01.455[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2410:40:04.754[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2410:40:05.073[main]Utilities.LoggerLoad1)-User is on Applications Of Array Page
+[INFO ]2024-02-2410:40:19.821[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:40:22.984[main]Utilities.LoggerLoad1)-User is on Practice Questions Page
+[INFO ]2024-02-2410:40:26.202[main]Utilities.LoggerLoad1)-User is on Search the Array Question Page
+[INFO ]2024-02-2410:40:31.893[main]Utilities.LoggerLoad1)-User clicks Max Consecutive Ones Question link
+[INFO ]2024-02-2410:40:37.722[main]Utilities.LoggerLoad1)-User clicks 'Find number with even digits' Question link
+[INFO ]2024-02-2410:40:43.505[main]Utilities.LoggerLoad1)-User clicks 'Squares of a Sorted Array' Question link
+[INFO ]2024-02-2410:41:10.773[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:41:13.222[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2410:41:16.521[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2410:41:18.908[main]Utilities.LoggerLoad1)-User is on Arrays in Python Page
+[INFO ]2024-02-2410:41:40.558[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:41:42.727[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2410:41:46.417[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2410:41:48.769[main]Utilities.LoggerLoad1)-User is on Array Using List Page
+[INFO ]2024-02-2410:42:03.557[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:42:06.419[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2410:42:10.453[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2410:42:10.750[main]Utilities.LoggerLoad1)-User is on Basic Operations in List Page
+[INFO ]2024-02-2410:42:25.416[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:42:27.548[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2410:42:31.502[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2410:42:31.788[main]Utilities.LoggerLoad1)-User is on Applications Of Array Page
+[INFO ]2024-02-2410:42:45.684[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:42:49.765[main]Utilities.LoggerLoad1)-User is on Practice Questions Page
+[INFO ]2024-02-2410:42:53.374[main]Utilities.LoggerLoad1)-User is on Search the Array Question Page
+[INFO ]2024-02-2410:42:58.933[main]Utilities.LoggerLoad1)-User clicks Max Consecutive Ones Question link
+[INFO ]2024-02-2410:43:04.640[main]Utilities.LoggerLoad1)-User clicks 'Find number with even digits' Question link
+[INFO ]2024-02-2410:43:11.064[main]Utilities.LoggerLoad1)-User clicks 'Squares of a Sorted Array' Question link
+[INFO ]2024-02-2410:43:44.432[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:43:53.246[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2410:43:56.529[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2410:43:59.715[main]Utilities.LoggerLoad1)-User is on Arrays in Python Page
+[INFO ]2024-02-2410:44:08.625[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:44:11.515[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2410:44:14.777[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2410:44:17.098[main]Utilities.LoggerLoad1)-User is on Array Using List Page
+[INFO ]2024-02-2410:44:26.730[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:44:29.389[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2410:44:32.701[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2410:44:33.311[main]Utilities.LoggerLoad1)-User is on Basic Operations in List Page
+[INFO ]2024-02-2410:44:41.679[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:44:43.793[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2410:44:47.059[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2410:44:47.387[main]Utilities.LoggerLoad1)-User is on Applications Of Array Page
+[INFO ]2024-02-2410:45:01.304[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:45:04.235[main]Utilities.LoggerLoad1)-User is on Practice Questions Page
+[INFO ]2024-02-2410:45:07.472[main]Utilities.LoggerLoad1)-User is on Search the Array Question Page
+[INFO ]2024-02-2410:45:12.966[main]Utilities.LoggerLoad1)-User clicks Max Consecutive Ones Question link
+[INFO ]2024-02-2410:45:18.779[main]Utilities.LoggerLoad1)-User clicks 'Find number with even digits' Question link
+[INFO ]2024-02-2410:45:24.506[main]Utilities.LoggerLoad1)-User clicks 'Squares of a Sorted Array' Question link
+[INFO ]2024-02-2410:46:08.397[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:46:10.735[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2410:46:14.591[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2410:46:18.261[main]Utilities.LoggerLoad1)-User is on Arrays in Python Page
+[INFO ]2024-02-2410:46:39.261[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:46:41.785[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2410:46:45.109[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2410:46:47.756[main]Utilities.LoggerLoad1)-User is on Array Using List Page
+[INFO ]2024-02-2410:47:02.584[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:47:04.925[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2410:47:08.210[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2410:47:08.490[main]Utilities.LoggerLoad1)-User is on Basic Operations in List Page
+[INFO ]2024-02-2410:47:22.428[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:47:26.532[main]Utilities.LoggerLoad1)-User Loggedin with valid Username and Password
+[INFO ]2024-02-2410:47:30.284[main]Utilities.LoggerLoad1)-User is on Array Home Page
+[INFO ]2024-02-2410:47:30.554[main]Utilities.LoggerLoad1)-User is on Applications Of Array Page
+[INFO ]2024-02-2410:47:46.045[main]Utilities.LoggerLoad1)-User is on login page
+[INFO ]2024-02-2410:47:51.809[main]Utilities.LoggerLoad1)-User is on Practice Questions Page
+[INFO ]2024-02-2410:47:55.677[main]Utilities.LoggerLoad1)-User is on Search the Array Question Page
+[INFO ]2024-02-2410:48:01.236[main]Utilities.LoggerLoad1)-User clicks Max Consecutive Ones Question link
+[INFO ]2024-02-2410:48:07.185[main]Utilities.LoggerLoad1)-User clicks 'Find number with even digits' Question link
+[INFO ]2024-02-2410:48:12.924[main]Utilities.LoggerLoad1)-User clicks 'Squares of a Sorted Array' Question link

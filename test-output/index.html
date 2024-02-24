@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\girij\eclipse-workspace\DS-AlgoProject\testng3.xml</span>
+                    <span>C:\Users\girij\eclipse-workspace\DS-AlgoProject\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Entering DSAlgo Home Page&quot;, &quot;DSAlgo Home Page&quot;)">runScenario("Entering DSAlgo Home Page", "DSAlgo Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +117,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Checking Time Complexity Page with correct python code&quot;, &quot;Checking Data Structure Intro Module&quot;)">runScenario("Checking Time Complexity Page with correct python code", "Checking Data Structure Intro Module")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Checking Practical Questions Page&quot;, &quot;Checking Data Structure Intro Module&quot;)">runScenario("Checking Practical Questions Page", "Checking Data Structure Intro Module")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Checking Login Link in Register Page&quot;, &quot;Checking Register Page&quot;)">runScenario("Checking Login Link in Register Page", "Checking Register Page")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -123,6 +132,39 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Runner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Entering DSAlgo Home Page&quot;, &quot;DSAlgo Home Page&quot;)">
+                  </a> <!-- runScenario("Entering DSAlgo Home Page", "DSAlgo Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Entering DSAlgo Home Page","DSAlgo Home Page")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=https://dsportalapp.herokuapp.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.187, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\girij\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49819}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49819/devtoo..., se:cdpVersion: 121.0.6167.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at StepDefinition.Home.user_opens_ds_algo_portal(Home.java:34)
+	at ✽.User opens DSAlgo Portal(file:///C:/Users/girij/eclipse-workspace/DS-AlgoProject/src/test/resources/Features/home.feature:6)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -131,20 +173,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Checking Time Complexity Page with correct python code&quot;, &quot;Checking Data Structure Intro Module&quot;)">
-                  </a> <!-- runScenario("Checking Time Complexity Page with correct python code", "Checking Data Structure Intro Module") -->
+                  <a name="runScenario(&quot;Checking Login Link in Register Page&quot;, &quot;Checking Register Page&quot;)">
+                  </a> <!-- runScenario("Checking Login Link in Register Page", "Checking Register Page") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Checking Time Complexity Page with correct python code","Checking Data Structure Intro Module")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Checking Practical Questions Page&quot;, &quot;Checking Data Structure Intro Module&quot;)">
-                  </a> <!-- runScenario("Checking Practical Questions Page", "Checking Data Structure Intro Module") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Checking Practical Questions Page","Checking Data Structure Intro Module")</span>
+                  <span class="parameters">("Checking Login Link in Register Page","Checking Register Page")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -154,7 +186,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\girij\eclipse-workspace\DS-AlgoProject\testng3.xml</span>
+            <span class="header-content">C:\Users\girij\eclipse-workspace\DS-AlgoProject\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -215,16 +247,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'Runner.TestRunner')
-data.setCell(0, 3, 35422);
+data.setCell(0, 3, 4256);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'Runner.TestRunner')
-data.setCell(1, 3, 14797);
+data.setCell(1, 3, 4014);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 50 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -252,20 +284,22 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">Runner.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@25d0b918)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@1e3df614)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Checking Time Complexity Page with correct python code", "Checking Data Structure Intro Module")</span>
-                <span class="method-start">912 ms</span>
+                <span class="method-name">runScenario("Checking Login Link in Register Page", "Checking Register Page")</span>
+                <span class="method-start">861 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">runScenario("Checking Practical Questions Page", "Checking Data Structure Intro Module")</span>
-                <span class="method-start">36349 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Entering DSAlgo Home Page", "DSAlgo Home Page")</span>
+                <span class="method-start">861 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">51152 ms</span>
+                <span class="method-start">5120 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
