@@ -1,6 +1,7 @@
 package PageObjects;
 
 import java.time.Duration;
+import Utilities.BaseClass;
 
 
 import org.openqa.selenium.Alert;
@@ -10,11 +11,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class GraphPage {
+public class GraphPage extends BaseClass{
 	
 	
 	
-	public WebDriver driver;
+	//public WebDriver driver;
 	
 	
 	private By grapghgetstartedbutton=By.xpath("//a[@href='graph']");
@@ -30,10 +31,10 @@ public class GraphPage {
 	private By run     			  =By.xpath("//button[@type='button']");  
 	private By OutputElement	  =By.xpath("//pre[@id='output']");
 	
-	 public GraphPage (WebDriver driver) {
+	/* public GraphPage (WebDriver driver) {
 	        this.driver = driver;
 	      
-	    }
+	    }*/
 	public void graphgetstarted() {
 		driver.findElement(grapghgetstartedbutton).click();
 		
