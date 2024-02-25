@@ -1,6 +1,6 @@
 package StepDefinition;
 
-import PageObjects.linkedlistpage;
+//import PageObjects.linkedlistpage;
 import Utilities.BaseClass;
 
 import java.time.Duration;
@@ -20,7 +20,7 @@ public class linkedlistpagesteps extends BaseClass {
      this.driver = BaseclassforDriver.getdriver();
        
    }*/
-   public static  linkedlistpage linkedlist;
+  // public static  linkedlistpage linkedlist;
 
 	@Given("I am logged in with valid credentials")
 	public void i_am_logged_in_with_valid_credentials() throws InterruptedException {
