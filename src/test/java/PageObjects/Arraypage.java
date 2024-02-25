@@ -44,7 +44,7 @@ private By runbtn=By.xpath("//button[text()='Run']");
 public void enterusername(String uname) throws InterruptedException {
 	
 	driver.findElement(username).clear();
-	Thread.sleep(1000);
+	Thread.sleep(10);
 	driver.findElement(username).sendKeys(uname);
 	
 }
@@ -58,18 +58,18 @@ public void clicklbtn() throws InterruptedException {
 	driver.findElement(loginbtn).click();
 	}
 	public void clickarrgetstarted() throws InterruptedException {
-		Thread.sleep(1000);
+		Thread.sleep(10);
 		driver.findElement(arrgetstarted).click();
 	}
 	public void clickarrinpython() throws InterruptedException {
 		
-		Thread.sleep(1000);
+		Thread.sleep(10);
 		driver.findElement(arrinpython).click();
 	}
 	
      public void clickTryhere() throws InterruptedException {
 		
-		Thread.sleep(1000);
+		Thread.sleep(10);
 		driver.findElement(Tryhere).click();
 	 }
 
@@ -98,13 +98,13 @@ public void clicklbtn() throws InterruptedException {
       
       public void clickrunbtn() throws InterruptedException {
   		
-  		Thread.sleep(1000);
+  		Thread.sleep(10);
   		driver.findElement(runbtn).click();
   	 }
       public void console() {
     	  
     	try {
-    	Thread.sleep(3000);
+    	Thread.sleep(1000);
     		WebElement msg= driver.findElement(console);
 			System.out.println(msg.getText());
 			//Thread.sleep(2000);
@@ -115,7 +115,7 @@ public void clicklbtn() throws InterruptedException {
       
       public void clickarrayusinglist() throws InterruptedException {
   		
-  		Thread.sleep(1000);
+  		Thread.sleep(10);
   		driver.findElement(Arrayusinglist).click();
   	}
       
@@ -145,19 +145,19 @@ public void clicklbtn() throws InterruptedException {
     	  driver.findElement(practiceques).click();
       }
       public void clicksearcharrques() throws InterruptedException {
-    	  Thread.sleep(1000);
+    	  Thread.sleep(10);
     	  driver.findElement(searcharrques).click();
       }
       public void clickmaxconsecones() throws InterruptedException {
-    	  Thread.sleep(1000);
+    	  Thread.sleep(10);
     	  driver.findElement(maxconsecones).click();
       }
       public void clickfindnowithevendigits() throws InterruptedException {
-    	  Thread.sleep(1000);
+    	  Thread.sleep(10);
     	  driver.findElement(findnowithevendigits).click();
       }
       public void clicksquaresofsortarray() throws InterruptedException {
-    	  Thread.sleep(1000);
+    	  Thread.sleep(10);
     	  driver.findElement(squaresofsortarray).click();
     	  
       }
