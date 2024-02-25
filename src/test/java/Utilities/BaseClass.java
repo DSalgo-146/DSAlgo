@@ -10,6 +10,7 @@ import PageObjects.RegisterPage;
 import PageObjects.TreePage;
 import PageObjects.linkedlistpage;
 import PageObjects.Queuepage;
+import PageObjects.GraphPage;
 
 public class BaseClass {
 
@@ -20,7 +21,8 @@ public class BaseClass {
 	public static DataStructure ds;
 	public static TreePage tr;
 	public static Arraypage Ap;
-	public static linkedlistpage linkedllst;
+	public static linkedlistpage linkedlist;
     public static Queuepage qu;
+    public static GraphPage graph;
 		
 }
