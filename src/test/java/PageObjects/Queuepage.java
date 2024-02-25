@@ -86,7 +86,7 @@ public void alertmessage() {
 		  String alertMessage= driver.switchTo().alert().getText(); // capture alert message
 
 		  System.out.println(alertMessage); // Print Alert Message
-		  Thread.sleep(5000);
+		  Thread.sleep(10);
 		  alert.accept();
 
 			} catch (Exception e) {
