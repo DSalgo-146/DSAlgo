@@ -3,24 +3,26 @@ package StepDefinition;
 import java.time.Duration;
 
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import PageObjects.GraphPage;
 import PageObjects.linkedlistpage;
+import Utilities.BaseClass;
 //import hooks.BaseclassforDriver;
 import io.cucumber.java.en.*;
 
-public class GraphPageSteps {
+public class GraphPageSteps extends BaseClass{
 
-WebDriver driver;
+//WebDriver driver;
 WebDriverWait wait;
 
 /*public GraphPageSteps() {
     this.driver = BaseclassforDriver.getdriver();
       
   }*/
-  public static  GraphPage graph;
+ // public static  GraphPage graph;
 
 
 
@@ -29,7 +31,7 @@ WebDriverWait wait;
 
 	@Given("I am on the login page")
 	public void i_am_on_the_login_page() throws InterruptedException {
-		graph = new  GraphPage(driver);
+		//graph = new  GraphPage(driver);
 		graph.get("https://dsportalapp.herokuapp.com/login");
 		
 		wait = new WebDriverWait(driver, Duration.ofSeconds(60)); 
