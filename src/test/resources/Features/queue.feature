@@ -1,6 +1,6 @@
 Feature: Feature to test queue module
 
-  Scenario: opening a Queue page
+  Background:
     Given user is in Dsalgo homepage
     When user click signin button it should be directed to login page
     And user enter Username and password
