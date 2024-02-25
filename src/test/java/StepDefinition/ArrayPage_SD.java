@@ -59,20 +59,20 @@ public class ArrayPage_SD extends BaseClass{
 
 	@When("user clicks Get started button")
 	public void user_clicks_get_started_button() throws InterruptedException {
-	   Thread.sleep(1000);
+	   Thread.sleep(10);
 	   Ap.clickarrgetstarted();
 	}
 
 	@Then("user redirects to array page")
 	public void user_redirects_to_array_page() throws InterruptedException {
-		Thread.sleep(1000);
+		Thread.sleep(10);
 	    System.out.println(driver.getCurrentUrl());
 	    LoggerLoad.info("User is on Array Home Page");
 	}
 
 	@When("user clicks on Arrays in Python link")
 	public void user_clicks_on_arrays_in_python_link() throws InterruptedException {
-		Thread.sleep(1000);
+		Thread.sleep(10);
 	    Ap.clickarrinpython();
 	}
 
@@ -86,7 +86,7 @@ public class ArrayPage_SD extends BaseClass{
 
 	@When("user clicks Try here button")
 	public void user_clicks_try_here_button() throws InterruptedException {
-		Thread.sleep(1000);
+		Thread.sleep(10);
 	    Ap.clickTryhere();
 	}
 
@@ -98,7 +98,7 @@ public class ArrayPage_SD extends BaseClass{
 	
 	@When("user enters correct python code in the Text editor with {string}")
 	public void user_enters_correct_python_code_in_the_text_editor_with(String string) throws InterruptedException {
-		Thread.sleep(4000);
+		Thread.sleep(10);
 		Ap.sendtexteditor(string);
 
 	}
@@ -106,7 +106,7 @@ public class ArrayPage_SD extends BaseClass{
 
 	@When("clicks Run button")
 	public void clicks_run_button() throws InterruptedException {
-		Thread.sleep(1000);
+		Thread.sleep(10);
 	    Ap.clickrunbtn();
 	}
 
@@ -118,7 +118,7 @@ public class ArrayPage_SD extends BaseClass{
 	}
 	@When("user enters incorrect python code in the Text editor with {string}")
 	public void user_enters_incorrect_python_code_in_the_text_editor_with(String string) throws InterruptedException {
-		Thread.sleep(4000);
+		Thread.sleep(10);
 		driver.get("https://dsportalapp.herokuapp.com/tryEditor");
 		Ap.sendtexteditor(string);
 	}
@@ -131,13 +131,13 @@ public class ArrayPage_SD extends BaseClass{
 
 	@When("user clicks on Get started button under Array section")
 	public void user_clicks_on_get_started_button_under_array_section() throws InterruptedException {
-		Thread.sleep(1000);
+		Thread.sleep(10);
 		   Ap.clickarrgetstarted();
 	}
 
 	@When("User Clicks on Array Using List link")
 	public void user_clicks_on_array_using_list_link() throws InterruptedException {
-	    Thread.sleep(1000);
+	    Thread.sleep(10);
 		Ap.clickarrayusinglist();
 	}
 
@@ -195,7 +195,7 @@ public class ArrayPage_SD extends BaseClass{
 
 	@When("User clicks {string} Link")
 	public void user_clicks_link(String string) throws InterruptedException {
-		Thread.sleep(1000);
+		Thread.sleep(10);
 	    Ap.clicksearcharrques();
 		
 	}
@@ -223,7 +223,7 @@ public class ArrayPage_SD extends BaseClass{
 
 	@Then("Result Should be displayed in the console")
 	public void result_should_be_displayed_in_the_console() throws InterruptedException {
-	    Thread.sleep(1000);
+	    Thread.sleep(10);
 		Ap.console();
 	}
 
