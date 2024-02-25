@@ -21,6 +21,7 @@ import PageObjects.RegisterPage;
 import PageObjects.TreePage;
 import PageObjects.linkedlistpage;
 import PageObjects.Queuepage;
+import PageObjects.GraphPage;
 import Utilities.BaseClass;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -65,7 +66,7 @@ public class Hooks extends BaseClass {
 		}
 
 		
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		//hp = new Homepage(driver);
 		hp = new Homepage();
 		rp = new RegisterPage();
@@ -73,8 +74,9 @@ public class Hooks extends BaseClass {
 		ds = new DataStructure();
 		tr = new TreePage();
 		Ap = new Arraypage();
-		linkedlistpage linkedlist = new linkedlistpage();
+		linkedlist = new linkedlistpage();
 		qu = new Queuepage();
+		graph = new GraphPage();
 		
 	}
 	@After
